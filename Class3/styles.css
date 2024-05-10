@@ -4,19 +4,19 @@ body {
 
 .box {
   background-color: black;
-  color: #fff;
-  font-size: 150%;
+
 }
 
 .box:nth-child(even) {
   background-color: white;
-  color: #000;
+
 }
 
 .wrapper {
   border-color: red;
   border-style: solid;
-  width: 500px;
+  border-width: .1em;
+  width: 600px;
   display: grid;
 
   grid-template-columns: repeat(8, 100px);
