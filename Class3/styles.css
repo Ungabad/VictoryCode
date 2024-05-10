@@ -1,0 +1,25 @@
+body {
+  margin: 40px;
+}
+
+.box {
+  background-color: black;
+  color: #fff;
+  font-size: 150%;
+}
+
+.box:nth-child(even) {
+  background-color: white;
+  color: #000;
+}
+
+.wrapper {
+  border-color: red;
+  border-style: solid;
+  width: 400px;
+  display: grid;
+
+  grid-template-columns: repeat(6, 100px);
+  grid-template-rows: 100px 100px 100px;
+  grid-auto-flow: column;
+}
