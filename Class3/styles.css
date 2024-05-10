@@ -16,10 +16,10 @@ body {
 .wrapper {
   border-color: red;
   border-style: solid;
-  width: 400px;
+  width: 500px;
   display: grid;
 
-  grid-template-columns: repeat(6, 100px);
-  grid-template-rows: 100px 100px 100px;
+  grid-template-columns: repeat(8, 100px);
+  grid-template-rows: repeat(5, 100px);
   grid-auto-flow: column;
 }
