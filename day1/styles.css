@@ -33,6 +33,16 @@ div {
     font-size: 150%;
     color: black;
 }
-  
-
+mark {
+    background-color: red;
+    color: white;
+    font-weight: lighter;
+    font-style: italic;
+}
+span:hover {
+    background-color: rgba(117, 4, 4, 0.945);
+    color: white;
+    font-weight: lighter;
+    font-style: italic;
+}
 
