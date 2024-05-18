@@ -1,0 +1,44 @@
+<!DOCTYPE HTML5>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>User Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">USER SURVEY</h1>
+
+    <p id="description">
+      This is a user survey form, please enter all required field.
+    </p>
+
+    <form>
+      <label id="name-label">
+        <input id="name" type="text" placeholder="Name" />
+      </label>
+
+      <label id="email-label">
+        <input id="email" type="email" placeholder="Email" />
+      </label>
+
+      <label id="number-label">
+        <input id="number" type="number" placeholder="number" />
+      </label>
+
+      <select id="dropdown">
+        <option value="">Select One</option>
+        <option value="1">good</option>
+        <option value="2">bad</option>
+      </select>
+      <input type="radio" id="positive" name="radio" checked />Positive
+      <input type="radio" id="negative" name="radio" />Negative
+      <input type="checkbox" name="Checks" id="One" value="great" />Great
+      <input type="checkbox" name="Checks" id="Two" value="good" />Good
+      <input type="checkbox" name="Checks" id="Three" value="bad" />Bad
+      <input type="checkbox" name="Checks" id="Four" value="awful" />Awful
+      <textarea name="comments" placeholder="Type comments here"></textarea>
+      <button id="submit">Submit</button>
+    </form>
+  </body>
+</html>
